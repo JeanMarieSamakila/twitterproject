@@ -6,14 +6,14 @@ import Tweet from './Tweet'
 import Post from './post'
 import Post3 from './Post3'
 import Trends from './Trends'
-import Composanttweet from './Composanttweet'
 
 function App() {
   return (
     <>
-      <div className='bg-black h-screen flex justify-center'>
-        <div className=' w-1/5 h-screen border-solid border-2 space-x-2'>
-          <div>
+      <div className='bg-black flex justify-center'>
+        <div id='container1' className=' w-1/5 h-screen border-solid border-2 space-x-2'>
+          <div className="Sidebar">
+            <Sidebar src="images/Twitter.svg"/>
             <Sidebar src="images/Home-Fill.svg" name="Home"/>
             <Sidebar src="images/Explore.svg" name="Explore"/>
             <Sidebar src="images/Notifications.svg" name="Notification"/>
@@ -32,20 +32,18 @@ function App() {
               <h2 className='font-bold m-2 text-white'>Bradley Ortiz</h2>
               <p className='text-white'>@bradley_</p>
               <img src="images/Private.svg" alt="" />
-              <img src="" alt="" />
               <img src="images/More-2.svg" alt="" />
             </div>
           </div>
         </div>
-        <div className=' border-solid border-2'>
+        <div id='' className=' border-solid border-2'>
           <Header/>
           <Tweet/>
           <Post/>
           <Post3/>
-          
 
         </div>
-        <div className='w-1/5 h-screen  border-solid border-2 border-white'>
+        <div className='w-2/5 h-screen  border-solid border-2 border-white'>
           <input class="w-44 h-10 rounded-3xl border-solid border-2 border-black" type="text" placeholder="Serach Twitter"/>
           <Trends/>
         </div>

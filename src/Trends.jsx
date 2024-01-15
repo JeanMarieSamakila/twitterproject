@@ -1,3 +1,5 @@
+import Follow from "./Follow";
+
 export default function Trends (){
     return(
         <div className="border-solid border-2">
@@ -16,6 +18,8 @@ export default function Trends (){
             <div>
                 <h2>Show more</h2>
             </div>
+            <Follow/>
         </div>
+
     )
 }

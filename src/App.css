@@ -3,7 +3,7 @@
   margin: 0%;
 }
 #test{
-  padding-top: 200px;
+  padding-top: 100px;
 }
 #boutontweet{
   padding-top: 20px;
@@ -17,4 +17,20 @@
 }
 #btntweet{
   padding-top: 40px;
+}
+#follow{
+  gap: 50px;
+  justify-content:space-around
+}
+#imgjm{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+#jmimgpost{
+  max-width:max-content;
+  border-radius: 8%;
+  width: 800px;
+  height: 300px;
+  
 }
