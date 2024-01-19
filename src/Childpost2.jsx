@@ -13,4 +13,4 @@ export default function Childpost2 (){
             <Menulikecommentaire/>  
         </div>
     )
-}
+}   

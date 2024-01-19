@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function Menulikecommentaire (){
-   const [compteur, setCompteur] = useState(0);
+  const [compteur, setCompteur] = useState(0);
   const [couleur, setCouleur] = useState('');
 
 
@@ -21,7 +21,7 @@ export default function Menulikecommentaire (){
     
     const handleClick =  () => {
         setCompteur(compteur + 1);
-    }
+    } 
    
     return(
         <>  
@@ -30,7 +30,7 @@ export default function Menulikecommentaire (){
                 <p className="text-white">0</p>
                 <img onClick={handleClick} src="images/Retweet.svg" alt="" />
                 <p className="text-white">{compteur}</p>
-                <img onClick={gererIncrementationDecrementation} style={{ backgroundColor: couleur, borderRadius: '50%', padding: '5px' }} src="images/React.svg" alt=""/>
+                <img onClick={gererIncrementationDecrementation} style={{ backgroundColor: couleur, borderRadius: '50%', padding: '5px'}} src="images/React.svg" alt=""/>
                 <p className="text-white">{valeur}</p>
                 <img  src="images/Share.svg" alt="" />
             </container>

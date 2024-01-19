@@ -1,25 +1,22 @@
 import Follow from "./Follow";
+import Squid from "./Squid";
+import Trendsforyou from "./Trendsforyou";
 
 export default function Trends (){
     return(
-        <div className="border-solid border-2">
-            <div className="flex space-x-20">
-                <h2 className="text-white">Treds for you</h2>
-                <img src="images/Settings.svg" alt="" />
+       
+       <section>
+            <div className="bg-gray-900 p-4 m-4 rounded-2xl space-y-4">
+                <Trendsforyou/>
+                <Squid/>
+                <Squid/>
+                <Squid/>
+                <h2 className=" font-bold text-blue-500">Show more</h2>
             </div>
-            <div className="flex space-x-19">
-                <div>
-                    <p className="text-white">Trending in Turkey</p>
-                    <h2 className="text-white">#SQUID</h2>
-                    <p className="text-white">2,066 Tweets</p>
-                </div>
-                <img src="images/More-2.svg" alt="" />
+            <div className="bg-gray-900 p-2 m-4 rounded-2xl">
+                <Follow/>
             </div>
-            <div>
-                <h2>Show more</h2>
-            </div>
-            <Follow/>
-        </div>
+       </section>
 
     )
 }

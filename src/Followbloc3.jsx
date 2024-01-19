@@ -1,15 +1,14 @@
 export default function Followbloc3 (){
     return(
-        
         <section className="flex justify-between">
             <div className="flex">
                 <div>
-                    <img src="images/Tweet-Profile-Photo.png" alt="" />
+                    <img src="images/image 1.png" alt="" />
                 </div>
                 <div className="flex justify-center ">
                     <div className="flex">
                         <div>
-                            <h3 className="text-white font-bold">The New York</h3>
+                            <h3 className="text-white font-bold">The New york</h3>
                             <p className="text-white">@nytimes</p>
                         </div>
                         <div>
