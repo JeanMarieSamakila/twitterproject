@@ -1,10 +1,9 @@
 import React from "react";
 export default function Profile() {
   return (
-    <section className="w-/5 ml-3 mr-3 ">
+    <section className=" ml-5 w-/5 mr-3 ">
       <section>
-        <div className="bg-gray-500 w-2/2 h-32"></div>
-        <div className="w-100 h-36 flex justify-between">
+        <div className="pt-5 w-100 h-36 flex justify-between">
           <div>
             <img
               className="w-24 h-24 rounded-full"
