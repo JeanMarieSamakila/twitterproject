@@ -11,7 +11,7 @@ export default function Postchild(){
                     <img src="images/Verified.svg" alt="" />
                     <p class="m-2 text-white">@CNN. 7m</p>
                 </div>
-                <p class="text-white">President Joe Biden touted a new agreement reached with the European Union to ease Trumpe-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strenghten the US steel industry and combat the global climate crisis. </p>
+                <p class="text-white">President Joe Biden touted a new agreement reached with the European Union to ease Trumpe-era tariffs on aluminum and steel as a "major breakthrough" that woul. </p>
                 <Menulikecommentaire/>
             </container>
         </>
