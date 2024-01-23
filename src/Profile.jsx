@@ -3,19 +3,21 @@ export default function Profile() {
   return (
     <section className=" ml-5 w-/5 mr-3 ">
       <section>
-        <div className="pt-5 w-100 h-36 flex justify-between">
-          <div>
-            <img
-              className="w-24 h-24 rounded-full"
-              src="images/JM.jpeg"
-              alt=""
-            />
-          </div>
-          <div className="border w-40 rounded-2xl m-5 h-8">
-            <h3 className="text-white ml-5 font-bold ">Editer le profil</h3>
+        <div className="pt-5 w-150 h-36  bg-gray-500">
+          <div className="flex mt-20 justify-between">
+            <div className="">
+              <img
+                className="w-24 h-24 rounded-full"
+                src="images/JM.jpeg"
+                alt=""
+              />
+            </div>
+            <div className="border w-40 rounded-2xl m-5 h-8">
+              <h3 className="text-white ml-5 font-bold ">Editer le profil</h3>
+            </div>
           </div>
         </div>
-        <div className="space-y-5">
+        <div className="space-y-5 mt-24">
           <div>
             <h2 className="text-white font-bold">
               Samakila mbilika jean marie
