@@ -63,10 +63,10 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 border-l border-r">
+        <div className="w-2/5 border-b border-slate-800 border-x">
           
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
 
             <Route path="/profil" element={<Profile />} />
           </Routes>

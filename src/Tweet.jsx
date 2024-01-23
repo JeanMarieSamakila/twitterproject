@@ -2,7 +2,7 @@ import Tweetchild from "./Tweetchild"
 export default function Tweet (){
     return(
         <>
-            <div className='p-8 space-y-6 border-t'>
+            <div className='p-8 space-y-6 border-slate-800 border-b border-t'>
                 <div className="flex">
                     <div><img className="w-12 h-8" src="images/Profile-Photo.svg" alt="" /></div>
                     <div><input class="w-80 h-10 bg-black text-white" type="text" placeholder="What's happening"/></div>

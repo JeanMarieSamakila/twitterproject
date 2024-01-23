@@ -1,7 +1,7 @@
 export default function Header (){
     return(
         <>
-            <header className='p-2 flex space-x-60 justify-between p-5'>
+            <header className=' flex space-x-60 justify-between p-5'>
                 <h2 class="font-bold m-2 text-white">Home</h2>
                 
                 <div className="">

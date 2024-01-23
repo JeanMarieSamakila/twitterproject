@@ -1,9 +1,9 @@
 import React from "react";
 export default function Profile() {
   return (
-    <section className=" ml-5 w-/5 mr-3 ">
+    <section className="">
       <section>
-        <div className="pt-5 w-150 h-36  bg-gray-500">
+        <div className="pt-5 pl-3 w-150 h-36  bg-gray-500">
           <div className="flex mt-20 justify-between">
             <div className="">
               <img
@@ -12,12 +12,14 @@ export default function Profile() {
                 alt=""
               />
             </div>
-            <div className="border w-40 rounded-2xl m-5 h-8">
-              <h3 className="text-white ml-5 font-bold ">Editer le profil</h3>
+            <div className="mt-8">
+                <div className=" border w-40 rounded-2xl m-5 h-8">
+                  <h3 className="text-white ml-5 font-bold ">Editer le profil</h3>
+                </div>
             </div>
           </div>
         </div>
-        <div className="space-y-5 mt-24">
+        <div className="pl-3 space-y-5 mt-24">
           <div>
             <h2 className="text-white font-bold">
               Samakila mbilika jean marie
