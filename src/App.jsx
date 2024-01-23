@@ -20,10 +20,10 @@ function App() {
               <Route path="/profil" element= {<Profile/>} />
             </Routes> */}
             <Link>
-              <Sidebar src="images/Twitter.svg" />
+              <Sidebar className="hover:bg-teal-500" src="images/Twitter.svg" />
             </Link>
             <Link to="/Home">
-              <Sidebar src="images/Home-Fill.svg" name="Home" />
+              <Sidebar className="hover:bg-teal-500" src="images/Home-Fill.svg" name="Home" />
             </Link>
             <Link>
               <Sidebar src="images/Explore.svg" name="Explore" />
@@ -49,7 +49,7 @@ function App() {
             </Link>
           </div>
           <section className=" text-white font-bold">
-            <button className="justify-center ml-5 bg-blue-500 rounded-3xl h-12 w-48">
+            <button className="hover:bg-gradient-to-r from-green-400 to-blue-400 justify-center ml-5 bg-blue-500 rounded-3xl h-12 w-48">
               Tweet
             </button>
           </section>
@@ -63,7 +63,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 border-b border-slate-800 border-x">
+        <div className="w-2/5 border-r  border-slate-800 border-l ">
           
           <Routes>
             <Route path="/home" element={<Home />} />
@@ -72,7 +72,7 @@ function App() {
           </Routes>
           {/* <Profile /> */}
         </div>
-        <div className=" w-1/5 h-screen p-4">
+        <div className=" w-1/5 p-4">
           <div class=" bg-gray-900 flex w-50 h-10 rounded-3xl border-solid border-black p-2 ">
             <div>
               <img className="w-6" src="images/Search.svg" alt="" />

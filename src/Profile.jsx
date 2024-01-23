@@ -19,7 +19,7 @@ export default function Profile() {
             </div>
           </div>
         </div>
-        <div className="pl-3 space-y-5 mt-24">
+        <div className="pl-5 space-y-5 mt-24">
           <div>
             <h2 className="text-white font-bold">
               Samakila mbilika jean marie
@@ -46,7 +46,7 @@ export default function Profile() {
           </div>
         </div>
       </section>
-      <section className="mt-5">
+      <section className="pl-5 mt-5">
           <div className="flex gap-5">
             <img className="w-14 h-14 rounded-full" src="images/JM.jpeg" alt="" />
             <h3 className="text-white font-bold">samakila mbilika jean marie.</h3>

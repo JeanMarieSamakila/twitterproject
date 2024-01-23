@@ -9,7 +9,7 @@ export default function Tweet (){
                 </div>
                 <div className="flex justify-between">
                     <div><Tweetchild/></div>
-                    <div><button className=' text-white font-bold bg-blue-500 rounded-3xl h-10 w-24' >Tweet</button></div>
+                    <div><button className='hover:bg-gradient-to-r from-green-400 to-blue-400 text-white font-bold bg-blue-500 rounded-3xl h-10 w-24' >Tweet</button></div>
                 </div> 
             </div>
             
