@@ -5,7 +5,7 @@ import Trendsforyou from "./Trendsforyou";
 export default function Trends (){
     return(
        
-       <section className="">
+       <section>
             <div className="bg-gray-900 p-4 m-4 rounded-2xl space-y-4">
                 <Trendsforyou/>
                 <Squid/>

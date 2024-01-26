@@ -6,7 +6,7 @@ import Followbloc3 from "./Followbloc3";
 export default function Follow(){
     return(
         <section >
-            <div className="space-y-8 pl-2 pr-2">
+            <div className="pl-3 pr-3 space-y-8">
                 <div>
                     <h2 class="text-white font-bold">Who to follow</h2>
                 </div>
