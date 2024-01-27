@@ -153,7 +153,7 @@ function App() {
             </button>
           </section>
           <div id="test" className="flex space-x-5 mt-14">
-            <img src="images/Profile-Photo.svg" alt="" />
+            <Link to="/Profile"><img src="images/Profile-Photo.svg" alt="" /></Link>
             <div className="flex">
               <div className="flex">
                 <div>
